@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import cn from 'classnames';
 import { IoMdArrowDropdownCircle } from 'react-icons/io';
-import logo from './logo.png';
 
 import styles from './App.module.scss';
 
@@ -32,7 +31,7 @@ function App() {
 
           <h1>
             김효은 <br />
-            합격기원 <img src={logo} className={styles.logo} alt="logo" />
+            합격기원 🙏
           </h1>
         </header>
 
